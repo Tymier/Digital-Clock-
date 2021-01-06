@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+}
+
+.main {
+    background: black;
+    width: 400px;
+    height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.sign {
+    width: 96px;
+    background: black;
+    color: seashell;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: -15px;
+    left: 40%;
+    border-radius: 50%;
+}
+
+.clock {
+    background: white;
+    text-align: center;
+    font-size: 55px;
+    height: 100%;
+    padding-top: 25px;
+    width: 300px;
+    border-radius: 50%;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
